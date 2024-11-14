@@ -1,0 +1,91 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Dark",
+  "version": 2,
+  "settings": {
+    "color": {
+        "palette": [
+            {
+                "color": "#000000",
+                "name": "Base",
+                "slug": "base"
+            },
+            {
+                "color": "#ffbd0a",
+                "name": "Primary",
+                "slug": "primary"
+            },
+            {
+                "color": "#ef5921",
+                "name": "Secondary",
+                "slug": "secondary"
+            },
+            {
+                "color": "#91b707",
+                "name": "Ternary",
+                "slug": "ternary"
+            },
+            {
+                "color": "#2dc7c3",
+                "name": "Fourth",
+                "slug": "fourth"
+            },
+            {
+                "color": "#fff2e3",
+                "name": "Primary Light",
+                "slug": "primary-light"
+            },
+            {
+                "color": "#b54f25",
+                "name": "Testimonial Bg",
+                "slug": "testimonial-bg"
+            },
+            {
+                "color": "#efefff",
+                "name": "Body Text",
+                "slug": "body-text"
+            },
+            {
+                "color": "#ffffff",
+                "name": "Headings",
+                "slug": "heading"
+            },
+            {
+                "color": "#0f0f12",
+                "name": "Section Background",
+                "slug": "section-bg"
+            },
+            {
+                "color": "#000000",
+                "name": "Background",
+                "slug": "background"
+            },
+            {
+                "color": "#ffffff",
+                "name": "Foreground",
+                "slug": "foreground"
+            },
+            {
+                "color":"#271706",
+                "name": "Footer Bg",
+                "slug": "footer-Bg"
+            },
+            {
+                "color":"#393939",
+                "name": "Border Color",
+                "slug": "border-color"
+            },
+            {
+                "color":"#3f4041",
+                "name": "Sidebar Shadow Color",
+                "slug": "sidebar shadow color"
+            },
+            {
+                "color": "#464b4c",
+                "name": "Second Bg",
+                "slug": "second-bg"
+            }
+        ]
+    }
+  }
+}

@@ -1,0 +1,231 @@
+.banner-section img.wp-block-cover__image-background{
+  object-fit: fill !important;
+}
+.banner-section .masquito img{
+  width: auto !important;
+}
+.banner-section .slider-left{
+  margin-top: 17%;
+}
+.banner-section .banner-social-icon li{
+  border-radius: 6px;
+}
+.banner-section .banner-social-icon a:hover{
+  background: #339D55;
+  border-radius: 6px;
+}
+.banner-section .slider-right{
+  margin-top: 10%;
+}
+.banner-section .slider-right .masquito{
+  top: 17%;
+}
+.banner-section .slider-right i.fa-solid.fa-mosquito{
+  background: #FCB900;
+  color: #000;
+  border-radius: 57px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  z-index: 99;
+  font-size: 36px;
+}
+.banner-section .slider-right .review{
+  left: 48% !important;
+  bottom: 9% !important;
+}
+.about-section .img-section i{
+  background: #FEF4D8;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 22px;
+  bottom: 50%;
+  right: 33px;
+  position: absolute;
+}
+.about-section .feature-box1:hover h4{
+  color: #339D55 !important;
+}
+.about-section .feature-box1:hover i{
+  background: #FCB900 !important;
+}
+.about-section .feature-box1 h4:after{
+  position: absolute;
+  border-bottom: 3px solid #000;
+  width: 200px;
+  content: '';
+  bottom: -12px;
+  left: 50%;
+  transform: translate(-50%);
+  background: transparent;
+}
+.sponsor-sec .sponsor-col2 i{
+  background: #339D55;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  height: 85px;
+  font-size: 50px;
+  border-radius: 60px;
+  border: 6px solid #fff;
+  position: absolute;
+  bottom: 13%;
+  margin-left: -42px;
+}
+@media screen and (max-width: 767px){
+  .banner-section .banner-image img{
+    height: 330px !important;
+  }
+  .banner-section .slider-left p,.sponsor-sec .sponsor-col2 i{
+    display: none;
+  }
+  .banner-section .slider-left h2,.sponsor-sec h5,.about-section .heading-section h3{
+    font-size: 26px !important;
+  }
+  .banner-section .slider-left h2,.banner-section .slider-left .wp-block-buttons,.banner-section .slider-right .review,
+  .banner-section .banner-social-icon .social-text,.sponsor-sec h5,.about-section .heading-section h3,.sponsor-sec p,.sponsor-sec .author-section{
+    text-align: center;
+    justify-content: center;
+  }
+  .banner-section .slider-right .masquito{
+    top: 27%;
+  }
+  .banner-section .slider-right i.fa-solid.fa-mosquito{
+    left: 8%;
+  }
+  .banner-section .slider-right .review{
+    left: 0 !important;
+    margin: 0 auto;
+    bottom: 22% !important;
+    width: 100%;
+  }
+  .banner-section .banner-social-icon{
+    bottom:12% !important;
+  }
+  .banner-section .banner-social-icon .social-text{
+    display: block !important;
+  }
+}
+@media screen and (min-width: 768px){
+  .banner-section .banner-content{
+    flex-wrap: nowrap !important;
+  }
+}
+@media screen and (max-width: 991px){
+  .about-section .heading-section,.about-section .tab-section{
+    text-align: center;
+    justify-content: center !important;
+    flex-basis: 100% !important;
+  }
+  .about-section .mb-3{
+    gap: 0em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .banner-section .slider-left h2{
+    font-size: 30px !important;
+  }
+  .banner-section .banner-image{
+    margin-left: -20px;
+  }
+  .banner-section .slider-right i.fa-solid.fa-mosquito{
+    left: 45%;
+  }
+  .banner-section .banner-social-icon .custom-social-icons{
+    justify-content: flex-start;
+  }
+  .banner-social-icon{
+    left: -47% !important;
+  }
+  .banner-section .banner-social-icon P,.banner-section .slider-left P{
+    font-size: 14px !important;
+  } 
+  .about-section .about-post,.about-section .mb-3,.sponsor-sec{
+    flex-wrap: wrap !important;
+  }
+  .sponsor-sec .wp-block-column,.sponsor-sec .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column,
+  .banner-section .banner-social-icon:not(.is-not-stacked-on-mobile)>.wp-block-column{
+    flex-basis: 100% !important;
+  }
+  .about-section .feature-box1,.about-section .wp-block-columns:not(.is-not-stacked-on-mobile)>.feature-box1{
+    flex-basis:47% !important;
+  }
+  .sponsor-sec{
+    padding: 0 20PX;
+  }
+}
+@media screen and (max-width: 1199px){
+  .banner-section .slider-right i.fa-solid.fa-mosquito{
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  .banner-section .banner-image img{
+    height: 495px !important;
+  }
+  .banner-section{
+    height: 400px !important;
+  }
+  .banner-section .slider-right .review {
+    left: 25% !important;
+    bottom: 12% !important;
+  }
+  .banner-section .banner-social-icon{
+    flex-wrap: wrap !important;
+    bottom: -2%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .banner-section .slider-right i.fa-solid.fa-mosquito{
+    left: 53%;
+  }
+  .banner-section .slider-right .review{
+    left: 39% !important;
+    bottom: 9% !important;
+  }
+  .banner-section .banner-social-icon .wp-block-column {
+    flex-basis: 100% !important;
+  }
+  .banner-section .banner-social-icon P{
+    text-align: left !important;
+  }
+  .about-section .post-innter-content h4,.about-section .img-section i{
+    font-size: 18px !important;
+  }
+  .about-section .box img{
+    height: 150px !important;
+  }
+  .about-section .img-section i{
+    bottom: 60%;
+  }
+  .sponsor-sec .sponsor-col2 i{
+    bottom: 17%;
+  }
+}
+@media screen and (max-width: 1863px){
+  .banner-section .banner-social-icon{
+    gap: 0em;
+  }
+  .banner-section .wp-block-social-links .wp-social-link a{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  .banner-section .wp-block-social-links{
+    gap:5px ;
+  }
+}
