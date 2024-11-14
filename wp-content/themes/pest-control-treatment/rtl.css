@@ -488,7 +488,7 @@ table.compare-list .add-to-cart td a:not(.unstyled_button){
 }
 .menu-search input[type="submit"] {
   padding: 10px 20px !important;
-  background: url('./assets/images/search.png') right 10px top 10px no-repeat #fff;
+  background: url('https://homeworkenemy.github.io/croissantbooks/wp-content/themes/pest-control-treatment/assets/images/search.png') right 10px top 10px no-repeat #fff;
   text-indent: -99999px;
   border-radius: 0px 6px 6px 0px;
 }
@@ -577,10 +577,10 @@ table.compare-list .add-to-cart td a:not(.unstyled_button){
   height: 800px;
   object-fit: cover;   
   padding: 12rem 0 50rem 0;
-  background: url('assets/images/defaultbanner.png')#FEF4D8;
+  background: url('https://homeworkenemy.github.io/croissantbooks/wp-content/themes/pest-control-treatment/assets/images/defaultbanner.png')#FEF4D8;
   background-size: cover !important;
-  -webkit-mask-image: url('assets/images/slider-shape.png');
-  mask-image: url('assets/images/slider-shape.png');
+  -webkit-mask-image: url('https://homeworkenemy.github.io/croissantbooks/wp-content/themes/pest-control-treatment/assets/images/slider-shape.png');
+  mask-image: url('https://homeworkenemy.github.io/croissantbooks/wp-content/themes/pest-control-treatment/assets/images/slider-shape.png');
   -webkit-mask-size: 100% 100%;
   background-size: 100% 100% !important;
 }
@@ -592,7 +592,7 @@ table.compare-list .add-to-cart td a:not(.unstyled_button){
   background-size: cover !important;
   min-width: 100%;
   padding: 30em 20em;
-  background: url('assets/images/defaultbanner.png' );
+  background: url('https://homeworkenemy.github.io/croissantbooks/wp-content/themes/pest-control-treatment/assets/images/defaultbanner.png' );
   background-size: cover !important;
 }
 .path-generator{
@@ -672,8 +672,8 @@ table.compare-list .add-to-cart td a:not(.unstyled_button){
   aspect-ratio: 1 / 1;
   margin: auto;
   z-index: 9;
-  -webkit-mask-image: url(assets/images/mask3.png);
-  mask-image: url(assets/images/mask3.png);
+  -webkit-mask-image: url(https://homeworkenemy.github.io/croissantbooks/wp-content/themes/pest-control-treatment/assets/images/mask3.png);
+  mask-image: url(https://homeworkenemy.github.io/croissantbooks/wp-content/themes/pest-control-treatment/assets/images/mask3.png);
   -webkit-mask-size: 100% 100%;
 }
 .mask-img-section h2{
